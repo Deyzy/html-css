@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            /* Medidas absolutas
+               cm, mm, in, px, não recomendados(pt, pc)
+
+               medidas relativa
+               em, ex, rem, vw, vh, %
+
+               usar (em, px) recomendações da W3C 
+               16px geralmente = 1em  
+            */
+            font-size: 1em;
+            /* lighter normal bold bolder (variações de peso) */
+        }
+        h1 {
+            /*font-size: 1em ;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: under */
+
+            /* Shorthand font
+            - font-style -> font-weight -> font-size -> font-family */ 
+            font: italic bolder 3em 'work sans', sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quibusdam necessitatibus magnam ducimus animi aperiam aliquam a delectus, iste aut itaque. Eveniet temporibus quia excepturi nesciunt laudantium eaque cupiditate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum consequatur dolor explicabo amet animi sapiente natus veritatis molestiae itaque consectetur minus, pariatur beatae esse voluptas incidunt, voluptate debitis quaerat nam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident distinctio repudiandae aliquam beatae illum inventore. Illum ex, dolorem alias autem adipisci voluptas excepturi, eius, provident recusandae dolores natus? Omnis, ullam.</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto at laborum nam atque fugit dolores consectetur. Nobis deleniti quasi ducimus! Explicabo, laborum? Itaque nostrum natus aperiam cum earum officia repellat!</p>
+</body>
+</html>
